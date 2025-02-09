@@ -1,3 +1,3 @@
 function telaFinal(){
-    background(imagemFinal);
+    background(imagemMenu);
 }

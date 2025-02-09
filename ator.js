@@ -2,7 +2,7 @@
 let xAtor = 256;
 let yAtor = 590;
 let colisao = false
-let meusPontos = 0;
+let meusPontos = 5;
 
 function mostraAtor(){
     image(imagemDoAtor, xAtor, yAtor, 40,40);
