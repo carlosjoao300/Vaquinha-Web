@@ -26,6 +26,9 @@ function draw() {
   incluiPontos();
   mostraPonto();
     }
+    if (tela ==3){
+      telaFinal();
+   }
   
 }
 
