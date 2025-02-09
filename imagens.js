@@ -6,7 +6,7 @@ let imagemCarro;
 let imagemCarro2;
 let imagemCarro3;
 let imagemCarros;
-
+let imagemMenu;
 //sons do jogo.
 
 let somDaTrilha;
@@ -21,7 +21,9 @@ function preload(){
   imagemCarro2 = loadImage("Imagens/carro-2.png");
   imagemCarro3 = loadImage("Imagens/carro-3.png");
   imagemCarros = [imagemCarro, imagemCarro2, imagemCarro3,imagemCarro, imagemCarro2, imagemCarro3];
+  imagemMenu = loadImage("Imagens/imagemMenu.png");
   somDaTrilha = loadSound("sons/trilha.mp3");
   somDaColisao = loadSound("sons/colidiu.mp3"); 
   somDoPonto = loadSound("sons/pontos.wav");
+
 }
