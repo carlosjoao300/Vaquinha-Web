@@ -18,9 +18,9 @@ function draw() {
     if (tela == 2) {
   background(imagemDaEstrada);
   mostraAtor();
+  movimentaAtor();
   mostraCarro();
   movimentaCarro();
-  movimentaAtor();
   voltaPosicaoincialDoCarro()
   verificaColisao()
   incluiPontos();
