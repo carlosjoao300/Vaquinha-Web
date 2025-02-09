@@ -1,5 +1,5 @@
 function telaFinal(){
-    background(imagemMenu);
+    background(imagemFinal);
     somDoGame.stop();
     
 }
